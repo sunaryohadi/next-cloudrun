@@ -1,10 +1,10 @@
+import Layout from 'components/Layout';
+
 function Home() {
   return (
-    <div className="w-full min-h-screen flex flex-col">
-      <header>Home</header>
-      <main className="flex-1 bg-red-50">Main</main>
-      <footer>Footer</footer>
-    </div>
+    <Layout hClassName="bg-background">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 pt-20 text-primary">Main</div>
+    </Layout>
   );
 }
 
